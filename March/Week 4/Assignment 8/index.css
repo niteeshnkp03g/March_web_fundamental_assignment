@@ -1,62 +1,95 @@
+/* Navbar */
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+}
+ul li{
+  list-style:none;
+}
+ul li a{
+  text-decoration: none;
+  padding: 35px 50px;
+
+}
+ul li a .btn{
+  width:auto;
+  font-size: medium;
+  border-radius: 2px solid red;
+  border: 25%;
+}
 /* Styling the Body element i.e. Color,
 		Font, Alignment */
-        body {
-            background-color: #daeee5;
-            font-family: Verdana;
-            text-align: center;
-          }
-          /* Styling the Form (Color, Padding, Shadow) */
-          form {
-            background-color: #fff;
-            max-width: 500px;
-            margin: 50px auto;
-            padding: 30px 20px;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
-          }
-          
-          /* Styling form-control Class */
-          .form-control {
-            text-align: left;
-            margin-bottom: 25px;
-          }
-          
-          /* Styling form-control Label */
-          .form-control label {
-            display: block;
-            margin-bottom: 10px;
-          }
-          
-          /* Styling form-control input,
+body {
+  background-color: #daeee5;
+  font-family: Verdana;
+  text-align: center;
+}
+/* Styling the Form (Color, Padding, Shadow) */
+form {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+/* Styling form-control Label */
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Styling form-control input,
                             select, textarea */
-          .form-control input,
-          .form-control select,
-          .form-control textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            padding: 10px;
-            display: block;
-            width: 95%;
-          }
-          
-          /* Styling form-control Radio
+.form-control input{
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 90%;
+}
+.form-control select{
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+
+/* Styling form-control Radio
                             button and Checkbox */
-          .form-control input[type="radio"],
-          .form-control input[type="checkbox"] {
-            display: inline-block;
-            width: auto;
-          }
-          
-          /* Styling Button */
-          button {
-            background-color: #05c46b;
-            border: 1px solid #777;
-            border-radius: 2px;
-            font-family: inherit;
-            font-size: 21px;
-            display: block;
-            padding: 10px;
-            width: 20%;
-            margin: 20px auto;
-          }
-          
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width:auto;
+}
+
+/* Styling Button */
+button {
+  background-color: #05c46b;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  padding: 10px;
+  width: 20%;
+  margin: 20px auto;
+}
