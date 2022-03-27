@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geekster Employee Survey Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-------create form------->
+    <form action="" id="form">
+        <h1>Geekster Employee Survey Form</h1>
+        <!-------Details------->
+        <div class="form-control">
+            <label for="name">Name</label>
+            <!-- Input Type Name -->
+            <input type="text" name="" id="name" placeholder="Enter Your Name">
+        </div>
+        <div class="form-control">Email
+            <label for="email"></label>
+            <input type="text" name="" id="email" placeholder="Enter Email @.com">
+        </div>
+        <div class="form-control">
+            <label for="age">Age </label>
+            <input type="text" name="" id="age" placeholder="Enter Your Age">
+        </div>
+        <div class="form-control">
+            <label for="role">Which Option Best Describes You</label>
+            <select name="role" id="role">
+                <option value="Employee">Student</option>
+				<option value="intern">Intern</option>
+                <option value="intern">HR</option>
+				<option value="professional">Professional</option>
+				<option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+			<label>
+				Would you recommed Geekster to a friend?
+			</label>
+
+			<!-- Input Type Radio Button -->
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed">Yes</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">No</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Maybe</input>
+			</label>
+		</div>
+        <div class="form-control">
+			<label>Languages and Frameworks known
+				<small>(Check all that apply)</small>
+			</label>
+			<!-- Input Type Checkbox -->
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp">HTML</input>
+			</label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">CSS</input>
+			</label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Node.js</input>
+			</label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Java</input>
+			</label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Python</input>
+			</label>
+			<label for="inp-6">
+				<input type="checkbox"
+					name="inp">JavaScript</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">React</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">Angular</input>
+			</label>
+			<label for="inp-7">
+				<input type="checkbox"
+					name="inp">MongoDB</input>
+			</label>
+		</div>
+        <div class="form-control">
+			<label for="comment">
+				Any comments or suggestions
+			</label>
+
+			<!-- multi-line text input control -->
+			<textarea name="comment" id="comment"
+				placeholder="Enter your comment here">
+			</textarea>
+		</div>
+
+		<!-- Multi-line Text Input Control -->
+		<button type="submit" value="submit">
+			Submit
+		</button>
+    </form>
+  </body>
+</html>
